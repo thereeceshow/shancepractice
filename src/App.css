@@ -7,7 +7,101 @@ html, body {
   background-image: url(./bgimages/Header.jpg);
 }
 
+#record {
+  height: 50vh;
+}
+
 #twitter {
-  color: #ffffff;
-  font-size: 50vh;
+  font: 400;
+}
+
+#confirmation {
+  background-image: url(./bgimages/Conformation.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+#quote1 {
+  background-image: url(./bgimages/Quote-BG1.jpg);
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+}
+
+.title {
+  margin-top: calc(50vh + 3px);
+}
+.gradient {
+  background-image: url(./bgimages/GradientBG.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.recordText {
+  margin: calc(10vh + 5px) calc(15vw + 3px) 0;
+  line-height: 2rem;
+}
+
+.arrow {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 .75rem .75rem 0;
+  display: inline-block;
+  padding: 1rem;
+  
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.p30 {
+  height: 30vh;
+  z-index: 1;
+}
+
+.billboard {
+  border-top: 10px solid #273844;
+  height: calc(33vh + 55px);
+  width: 85%;
+  padding: auto;
+  position: relative;
+}
+
+.vertical-center {
+  /* margin: 0; */
+  /* position: absolute; */
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.center {
+  /* margin: 0; */
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.relative {
+  position: relative;
+}
+
+.readmore {
+  background-color: #273844 !important;
+  border-radius: 0px !important;
+  color: white !important;
+  position: absolute;
+  bottom:   0;
+  /* float: unset; */
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%);
 }
