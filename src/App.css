@@ -108,7 +108,7 @@ html, body {
 
 .vertical-center {
   /* margin: 0; */
-  /* position: absolute; */
+  position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -185,4 +185,20 @@ td {
   /* left: 50%; */
   /* -ms-transform: translate(-50%, -50%); */
   /* transform: translate(-50%); */
+}
+
+.silks {
+  height: 5rem;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  /* margin-top: calc(50% - 1rem); */
+}
+
+.buck {
+  height: 8rem;
+}
+
+.crawford {
+  position: relative;
+  margin-top: 50%;
 }
