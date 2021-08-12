@@ -33,15 +33,16 @@ export default function Conf() {
 
             </div>
             <div id="quote1">
-                <Container>
-                    <blockquote className="text-white">
-                        lorem50lfjasflajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkflajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jddsflajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jddsflajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jdds
-                        flajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jddsjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jddsj; lfg jdfk s;jgkl dgdjf ds;lkfjadskfl;jds fkads fjkl 
-                        flajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jddsflajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jdds
-                        flajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jdds
-                        flajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jddsflajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jddsflajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jdds
-                        flajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jddsflajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jddsflajf dsljfas dfjlkasf jsal;fj asl;fj sdafjad; f;dafj a;lfkj sad;fjk dgj fa;lkjg adsf ads;lkgj gl;j fdklgj dfjds gkl;d jdkljf dg; jdds
-                    </blockquote>
+                <Container className="text-center">
+                    <div className="p50">
+
+                        <h2 className="text-white tripleSpace">
+                            <em>
+                            "He is an absolutely gorgeous horse.  He has limitless ability.  He was mentally talented with a great disposition.  I'm looking forward to seeing his offspring."
+                            </em>
+                        </h2>
+                        <h3 className="text-white mt-5">TRAINER STEVE ASMUSSEN</h3>
+                    </div>
 
                 </Container>
 

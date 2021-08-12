@@ -42,9 +42,16 @@ html, body {
   bottom: 0;
 }
 
+.doubleSpace {
+  line-height: 2rem;
+}
+
+.tripleSpace {
+  line-height: 3rem;
+}
+
 .recordText {
   margin: calc(10vh + 5px) calc(15vw + 3px) 0;
-  line-height: 2rem;
 }
 
 .arrow {
@@ -104,4 +111,8 @@ html, body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%);
+}
+
+.p50 {
+  padding-top: calc(50vh - 15px);
 }
