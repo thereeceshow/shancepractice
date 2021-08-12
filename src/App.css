@@ -24,7 +24,8 @@ html, body {
 #quote1 {
   background-image: url(./bgimages/Quote-BG1.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
+  background-position: center;
   z-index: -1;
 }
 
@@ -35,7 +36,12 @@ html, body {
 #quote2 {
   background-image: url(./bgimages/Quote-BG2.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
+  background-position: center;
+}
+
+#pedigree {
+  height: 60vh;
 }
 
 .title {
@@ -67,7 +73,7 @@ html, body {
 }
 
 .recordText {
-  margin: calc(10vh + 5px) calc(15vw + 3px) 0;
+  margin: calc(10vh + 5px) calc(5vw + 3px) 0;
 }
 
 .arrow {
@@ -142,7 +148,7 @@ html, body {
 }
 
 .p50 {
-  padding-top: calc(50vh - 15px);
+  padding-top: calc(35vh - 15px);
 }
 table {
   margin: 0px;
