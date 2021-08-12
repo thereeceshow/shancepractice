@@ -5,6 +5,7 @@ import Conf from './Conf';
 import Header from './Header';
 import Record from './Record';
 import Past from './Past';
+import Q2 from './q2';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Record />
         <Conf />
         <Past />
+        <Q2 />
 
       </Router>
       

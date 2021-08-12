@@ -1,5 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+// import { Twitter } from "./images/twitterLogo.svg"
+
 
 export default function Past() {
     return (
