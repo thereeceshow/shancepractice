@@ -4,6 +4,7 @@ import './App.css';
 import Conf from './Conf';
 import Header from './Header';
 import Record from './Record';
+import Past from './Past';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Record />
         <Conf />
+        <Past />
 
       </Router>
       
