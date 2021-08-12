@@ -44,6 +44,10 @@ html, body {
   height: 60vh;
 }
 
+#Footer {
+  height: calc(30vh + 25px);
+}
+
 .title {
   margin-top: calc(50vh + 3px);
 }
