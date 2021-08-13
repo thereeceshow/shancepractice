@@ -8,7 +8,7 @@ export default function Header() {
         <div id="header">
             <TheNav />
             <Container className="title">
-                <h2 className="text-center text-white mb-4">RECORD-BREAKING SPRINTER</h2>
+                <h2 className="text-center text-white mb-4 sans fs-1"><strong>RECORD-BREAKING SPRINTER</strong></h2>
                 <img src={Shancelot} />
                 <div className="d-flex">
                     <div className="arrow down mx-auto mt-4" />
@@ -16,9 +16,9 @@ export default function Header() {
                 </div>
             </Container>
             <Container fluid className="text-white bottom pb-4 px-5">
-                <Row align-items-end className="align-items-end">
+                <Row align-items-end className="align-items-end mb-3 fs-5">
                     <Col>
-                        STANDING AT BUCK POND FARM
+                        <span className="sans test">STANDING AT BUCK POND FARM</span>
                     </Col>
                     <Col>
                         <nav className="text-end">Inquires to Doug Arnold:(859)873-4081</nav>

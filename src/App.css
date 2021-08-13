@@ -1,10 +1,17 @@
 html, body {
   height: 100vh;
+  /* font-family: 'Merriweather', serif; */
 }
+
+* {
+  font-family: 'Merriweather', serif;
+}
+
 
 #header {
   height: 100vh;
   background-image: url(./bgimages/Header.jpg);
+  background-position: center;
 }
 
 #record {
@@ -12,13 +19,14 @@ html, body {
 }
 
 #twitter {
-  font: 400;
+  height: 2.3rem;
 }
 
 #confirmation {
   background-image: url(./bgimages/Conformation.jpg);
   background-size: cover;
   height: 100vh;
+  background-position: top;
 }
 
 #quote1 {
@@ -48,8 +56,12 @@ html, body {
   height: calc(30vh + 25px);
 }
 
+.sans, .sans * {
+  font-family: 'Roboto', sans-serif !important;
+}
+
 .title {
-  margin-top: calc(50vh + 3px);
+  margin-top: calc(40vh - 13px);
 }
 .gradient {
   background-image: url(./bgimages/GradientBG.svg);
@@ -93,16 +105,16 @@ html, body {
   -webkit-transform: rotate(45deg);
 }
 
-.p30 {
-  height: 30vh;
+.p40 {
+  height: 50vh;
   z-index: 1;
 }
 
 .billboard {
   border-top: 10px solid #273844;
-  height: calc(33vh + 55px);
+  height: calc(53vh + 55px);
   width: 85%;
-  padding: auto;
+  /* padding: auto; */
   position: relative;
 }
 
@@ -130,6 +142,7 @@ html, body {
 .readmore {
   border: none;
   background-color: #273844 !important;
+  border-color: #273844 !important;
   border-radius: 0px !important;
   color: white !important;
   font-size: 1.8rem !important;
@@ -175,6 +188,7 @@ td {
 
 .pastBTN {
   background-color: #273844 !important;
+  border-color: #273844 !important;
   border-radius: 0px !important;
   color: white !important;
   font-size: 2.5rem;

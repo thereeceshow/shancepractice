@@ -6,18 +6,20 @@ import Ribbon from './images/PinkRibbon.png'
 
 export default function Footer() {
     return (
-        <div id="Footer" className="bg-dark text-white px-5">
+        <div className="bg-dark text-white px-5">
             <Container fluid className="">
-                <Row className="pt-4 px-5">
-                    <Col className="">
-                        {/* <div className="mt-5"> */}
-                        <center>
-                            <p className="">STANDING AT</p>
-                            <img className="buck" src={Buck} />
-                        </center>
-                        {/* </div> */}
+                <Row id="Footer" className="px-5">
+                    <Col className="crawford">
+                        <div className="vertical-center">
+                            <center>
+                                <p className="">STANDING AT</p>
+                                <img className="buck" src={Buck} />
+                            </center>
+                        </div>
                     </Col>
-                    <Col className="mt-4">
+                    <Col className="crawford">
+                    <div className="vertical-center">
+
                         <p className="">
                             Inquires to Doug Arnold:
                             <br />
@@ -27,6 +29,7 @@ export default function Footer() {
                             <strong>1055 PAYNES MILL Road<br />
                                 VERSAILLES, KENTUCKY 40383</strong>
                         </p>
+                    </div>
 
                     </Col>
                     <Col className="crawford">
