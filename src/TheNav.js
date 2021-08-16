@@ -9,7 +9,7 @@ export default function TheNav() {
                 <Container fluid>
                     <Navbar.Brand className="fs-4" href="#home"><strong>NEW FOR 2021: $7,500 LFSN</strong></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Collapse id="responsive-navbar-nav" className="bluetext">
                         <Nav className="ms-auto fs-5">
                             <Nav.Link>PEDIGREE</Nav.Link>
                             <Nav.Link>PAST PERFORMANCES</Nav.Link>

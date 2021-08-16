@@ -7,12 +7,12 @@ export default function Past() {
     return (
         <div>
             <div id="past" className="gradient2">
-                <Row className="pt-5">
+                <Row className="pt-5 sans">
                     <Col className="ps-5">
-                        <h2 className="pt-5 ps-5">6: 3-2-1 | $624,300</h2>
+                        <h2 className="pt-5 ps-5 bolder">6: 3-2-1 | $624,300</h2>
                     </Col>
                     <Col className="ms-auto text-end">
-                        <button className="pastBTN px-5 py-4">PAST PERFORMANCES</button>
+                        <button className="pastBTN px-5 py-4 bolder">PAST PERFORMANCES</button>
 
                     </Col>
 

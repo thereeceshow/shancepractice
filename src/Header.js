@@ -18,7 +18,7 @@ export default function Header() {
             <Container fluid className="text-white bottom pb-4 px-5">
                 <Row align-items-end className="align-items-end mb-3 fs-5">
                     <Col>
-                        <span className="sans test">STANDING AT BUCK POND FARM</span>
+                        <span className="sans test bluetext">STANDING AT BUCK POND FARM</span>
                     </Col>
                     <Col>
                         <nav className="text-end">Inquires to Doug Arnold:(859)873-4081</nav>

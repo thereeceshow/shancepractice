@@ -18,14 +18,14 @@ export default function Footer() {
                         </div>
                     </Col>
                     <Col className="crawford">
-                    <div className="vertical-center">
+                    <div className="vertical-center doubleSpace">
 
-                        <p className="">
+                        <p className="fs-5">
                             Inquires to Doug Arnold:
                             <br />
                             (859)873-4081
                         </p>
-                        <p>
+                        <p className="sans fs-5">
                             <strong>1055 PAYNES MILL Road<br />
                                 VERSAILLES, KENTUCKY 40383</strong>
                         </p>
@@ -35,7 +35,7 @@ export default function Footer() {
                     <Col className="crawford">
                         <div className="vertical-center d-flex text-center">
                             <img className="silks" src={Silks} />
-                            <div><p>RACED BY</p><h5>CRAWFORD FARMS RACING</h5></div>
+                            <div><p>RACED BY</p><h5 className="sans bolder">CRAWFORD FARMS RACING</h5></div>
                             <img className="silks" src={Ribbon} />
                         </div>
 

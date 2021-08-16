@@ -1,6 +1,5 @@
 html, body {
   height: 100vh;
-  /* font-family: 'Merriweather', serif; */
 }
 
 * {
@@ -49,7 +48,7 @@ html, body {
 }
 
 #pedigree {
-  height: 60vh;
+  height: 70vh;
 }
 
 #Footer {
@@ -60,6 +59,33 @@ html, body {
   font-family: 'Roboto', sans-serif !important;
 }
 
+.bluetext {
+  color: #AAC6C4;
+  font-size: 1.25rem !important;
+  font-weight: bolder;
+}
+
+.speed {
+  color: #0F5079;
+  font-size: 1.25rem !important;
+  font-weight: bolder;
+}
+
+.speed2 {
+  color: #0F5079;
+  font-size: 1.25rem !important;
+  /* font-weight: bolder; */
+
+}
+
+.spaced {
+  letter-spacing: .25rem;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
 .title {
   margin-top: calc(40vh - 13px);
 }
@@ -67,12 +93,14 @@ html, body {
   background-image: url(./bgimages/GradientBG.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .gradient2 {
   background-image: url(./bgimages/GradientBG-flipped.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .bottom {
@@ -81,7 +109,7 @@ html, body {
 }
 
 .doubleSpace {
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 
 .tripleSpace {
@@ -97,7 +125,6 @@ html, body {
   border-width: 0 .75rem .75rem 0;
   display: inline-block;
   padding: 1rem;
-  
 }
 
 .down {
@@ -106,20 +133,18 @@ html, body {
 }
 
 .p40 {
-  height: 50vh;
+  height: 45vh;
   z-index: 1;
 }
 
 .billboard {
   border-top: 10px solid #273844;
-  height: calc(53vh + 55px);
+  height: calc(48vh + 55px);
   width: 85%;
-  /* padding: auto; */
   position: relative;
 }
 
 .vertical-center {
-  /* margin: 0; */
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -127,8 +152,6 @@ html, body {
 }
 
 .center {
-  /* margin: 0; */
-  /* position: absolute; */
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -156,12 +179,10 @@ html, body {
 
 .readmore::after {
   border: none;
-
 }
 
 .readmore:hover {
   border: none;
-
 }
 
 .p50 {
@@ -170,14 +191,12 @@ html, body {
 table {
   margin: 0px;
   width: 100vw;
-  /* margin-top: calc(10vh + 3px); */
 }
 
 td {
   border: 3px solid #447294 !important;
   padding: calc(3vw + 2px) calc(2vw + 3px);
   font-size: 1.6rem;
- 
 }
 
 .wps {
@@ -193,19 +212,12 @@ td {
   color: white !important;
   font-size: 2.5rem;
   border: none;
-  /* position: absolute; */
-  /* bottom:   0; */
-  /* float: unset; */
-  /* left: 50%; */
-  /* -ms-transform: translate(-50%, -50%); */
-  /* transform: translate(-50%); */
 }
 
 .silks {
   height: 5rem;
   margin-left: 2vh;
   margin-right: 2vh;
-  /* margin-top: calc(50% - 1rem); */
 }
 
 .buck {

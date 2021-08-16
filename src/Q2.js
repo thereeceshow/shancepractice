@@ -8,11 +8,9 @@ export default function Q2() {
                 <Row className="p50">
                     <Col>
                         <h2 className="text-white tripleSpace">
-                            <em>
                                 Shancelot could be a breed-changer with his speed.  He was brilliantly fast, and comes from a fast family with a lot of class.  He showed that class when competing among an incredibly strong division of sprinters
-                            </em>
                         </h2>
-                        <h3 className="text-white mt-5">DOUG ARNOLD, BUCK POND FARM</h3>
+                        <h3 className="bluetext spaced sans mt-5">DOUG ARNOLD, BUCK POND FARM</h3>
                     </Col>
                 </Row>
 
