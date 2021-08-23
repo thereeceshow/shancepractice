@@ -1,5 +1,6 @@
 html, body {
-  height: 100vh;
+  min-height: 100vh;
+  max-width: 100vw;
 }
 
 * {
@@ -8,13 +9,15 @@ html, body {
 
 
 #header {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(./bgimages/Header.jpg);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #record {
-  height: 50vh;
+  min-height: 50vh;
 }
 
 #twitter {
@@ -24,14 +27,14 @@ html, body {
 #confirmation {
   background-image: url(./bgimages/Conformation.jpg);
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   background-position: top;
 }
 
 #quote1 {
   background-image: url(./bgimages/Quote-BG1.jpg);
   background-size: cover;
-  height: 80vh;
+  min-height: 80vh;
   background-position: center;
   z-index: -1;
 }
@@ -43,16 +46,16 @@ html, body {
 #quote2 {
   background-image: url(./bgimages/Quote-BG2.jpg);
   background-size: cover;
-  height: 80vh;
+  min-height: 80vh;
   background-position: center;
 }
 
 #pedigree {
-  height: 70vh;
+  min-height: 70vh;
 }
 
 #Footer {
-  height: calc(30vh + 25px);
+  min-height: calc(30vh + 25px);
 }
 
 .sans, .sans * {
@@ -133,13 +136,13 @@ html, body {
 }
 
 .p40 {
-  height: 45vh;
+  min-height: 45vh;
   z-index: 1;
 }
 
 .billboard {
   border-top: 10px solid #273844;
-  height: calc(48vh + 55px);
+  min-height: calc(48vh + 55px);
   width: 85%;
   position: relative;
 }
@@ -193,16 +196,17 @@ table {
   width: 100vw;
 }
 
-td {
-  border: 3px solid #447294 !important;
-  padding: calc(3vw + 2px) calc(2vw + 3px);
+.tBorder {
+  border-top: 3px solid #447294 !important;
+  /* padding: calc(1vw + 2px) calc(1vw + 3px) calc(1vw + 2px) calc(2vw + 5px); */
   font-size: 1.6rem;
 }
 
 .wps {
-  font-size: 5.5rem;
+  font-size: 7.5rem;
   text-align: center;
-  padding: calc(5vw + 8px) calc(8vw + 8px);
+  padding: calc(5vw + 8px);
+  border-right: 3px solid #447294 !important;
 }
 
 .pastBTN {
@@ -212,6 +216,7 @@ td {
   color: white !important;
   font-size: 2.5rem;
   border: none;
+  /* display: none; */
 }
 
 .silks {
